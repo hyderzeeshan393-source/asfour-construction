@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us | Asfour Construction DFW</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Poppins', sans-serif; }
+    :root { --primary: #C9A961; --dark: #1a1a1a; }
+    body { color: #333; }
+    .top-bar { background: var(--primary); color: white; padding: 10px 0; font-size: 14px; text-align: center; }
+    .top-bar a { color: white; text-decoration: none; font-weight: 600; }
+    .navbar { background: #1a1a1a !important; padding: 20px 0; }
+    .navbar-brand { font-weight: 700; font-size: 1.5rem; color: var(--primary) !important; }
+    .navbar-brand img { height: 45px; width: auto; }
+    .nav-link { font-weight: 500; margin: 0 15px; color: white !important; }
+    .nav-link:hover { color: var(--primary) !important; }
+    .page-hero { background: linear-gradient(rgba(26,26,26,0.85), rgba(26,26,26,0.85)), url('https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=1600') center/cover; color: white; padding: 100px 0; text-align: center; }
+    .page-hero h1 { font-size: 3rem; font-weight: 700; margin-bottom: 15px; }
+    .page-hero p { font-size: 1.2rem; opacity: 0.9; }
+    .section-padding { padding: 80px 0; }
+    .contact-form-wrapper { background: white; padding: 50px; border-radius: 20px; box-shadow: 0 10px 40px rgba(0,0,0,0.1); }
+    .form-label { font-weight: 600; margin-bottom: 8px; color: #333; }
+    .form-control, .form-select { padding: 14px 18px; border: 2px solid #e0e0e0; border-radius: 10px; margin-bottom: 25px; transition: 0.3s; }
+    .form-control:focus, .form-select:focus { border-color: var(--primary); box-shadow: 0 0.2rem rgba(201,169,97,0.15); }
+    .btn-submit { background: var(--primary); border: none; padding: 15px 40px; font-weight: 600; border-radius: 10px; color: white; width: 100%; font-size: 1.1rem; transition: 0.3s; }
+    .btn-submit:hover { background: #b89450; transform: translateY(-2px); box-shadow: 0 8px 20px rgba(201,169,97,0.3); }
+    .info-card { background: #f8f9fa; padding: 40px 30px; border-radius: 15px; text-align: center; height: 100%; transition: 0.3s; border: 2px solid transparent; }
+    .info-card:hover { border-color: var(--primary); transform: translateY(-5px); }
+    .info-icon { width: 70px; height: 70px; background: var(--primary); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 20px; }
+    .info-icon i { color: white; font-size: 1.8rem; }
+    .info-card h5 { font-weight: 600; margin-bottom: 15px; color: var(--dark); }
+    .info-card a { color: #333; text-decoration: none; font-weight: 500; }
+    .info-card a:hover { color: var(--primary); }
+    .map-section { height: 450px; border-radius: 15px; overflow: hidden; }
+    footer { background: var(--dark); color: white; padding: 40px 0 20px; text-align: center; }
+    .floating-whatsapp { position: fixed; bottom: 30px; right: 30px; width: 60px; height: 60px; background: #25D366; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-size: 2rem; box-shadow: 0 5px 20px rgba(37,211,102,0.4); z-index: 1000; transition: 0.3s; }
+    .floating-whatsapp:hover { transform: scale(1.1); color: white; }
+  </style>
+</head>
+<body>
+
+  <div class="top-bar">
+    <div class="container">
+      <i class="fas fa-phone me-2"></i> <a href="tel:+14699997705">+1 (469) 999-7705</a>
+      <span class="mx-3">|</span>
+      <i class="fas fa-map-marker-alt me-2"></i> Serving Dallas-Fort Worth Metroplex
+    </div>
+  </div>
+
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <img src="images/logo.png" alt="ASFOUR CONSTRUCTION">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="index.html#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="index.html#services">Services</a></li>
+          <li class="nav-item"><a class="nav-link active" href="contact.html">Contact</a></li>
+          <li class="nav-item ms-2"><a href="tel:+14699997705" class="btn btn-primary btn-sm" style="background: var(--primary); border: none;"><i class="fas fa-phone me-1"></i> Call Now</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section class="page-hero">
+    <div class="container">
+      <h1>Get In Touch</h1>
+      <p>Let's Build Your Dream Project Together</p>
+    </div>
+  </section>
+
+  <section class="section-padding">
+    <div class="container">
+      <div class="row g-5 mb-5">
+        <div class="col-lg-4 col-md-6">
+          <div class="info-card">
+            <div class="info-icon">
+              <i class="fas fa-phone"></i>
+            </div>
+            <h5>Call Us</h5>
+            <p><a href="tel:+14699997705">+1 (469) 999-7705</a></p>
+            <small class="text-muted">Mon - Sat: 8:00 AM - 6:00 PM</small>
+          </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="info-card">
+            <div class="info-icon">
+              <i class="fas fa-envelope"></i>
+            </div>
+            <h5>Email Us</h5>
+            <p><a href="mailto:info@asfourconstruction.com">info@asfourconstruction.com</a></p>
+            <small class="text-muted">We reply within 24 hours</small>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-12">
+          <div class="info-card">
+            <div class="info-icon">
+              <i class="fas fa-map-marker-alt"></i>
+            </div>
+            <h5>Visit Us</h5>
+            <p>Dallas-Fort Worth, TX</p>
+            <small class="text-muted">Serving All of DFW Metroplex</small>
+          </div>
+        </div>
+      </div>
+
+      <div class="row g-5">
+        <div class="col-lg-7">
+          <div class="contact-form-wrapper">
+            <h3 class="mb-4 fw-bold">Send Us A Message</h3>
+            <p class="text-muted mb-4">Fill out the form below and we'll get back to you within 24 hours with a free consultation.</p>
+            <form name="contact" method="POST" data-netlify="true">
+              <input type="hidden" name="form-name" value="contact">
+              <div class="row">
+                <div class="col-md-6">
+                  <label class="form-label">Full Name *</label>
+                  <input type="text" class="form-control" name="name" placeholder="John Doe" required>
+                </div>
+                <div class="col-md-6">
+                  <label class="form-label">Email Address *</label>
+                  <input type="email" class="form-control" name="email" placeholder="john@example.com" required>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                  <label class="form-label">Phone Number *</label>
+                  <input type="tel" class="form-control" name="phone" placeholder="+1 (469) 999-7705" required>
+                </div>
+                <div class="col-md-6">
+                  <label class="form-label">Project Type *</label>
+                  <select class="form-select" name="project_type" required>
+                    <option value="">Select Project Type</option>
+                    <option value="Residential">Residential Construction</option>
+                    <option value="Commercial">Commercial Construction</option>
+                    <option value="Renovation">Renovation / Remodeling</option>
+                    <option value="Concrete">Concrete Work</option>
+                    <option value="Roofing">Roofing</option>
+                    <option value="Other">Other</option>
+                  </select>
+                </div>
+              </div>
+              <div class="mb-3">
+                <label class="form-label">Project Budget</label>
+                <select class="form-select" name="budget">
+                  <option value="">Select Budget Range</option>
+                  <option value="Under 50k">Under $50,000</option>
+                  <option value="50k-100k">$50,000 - $100,000</option>
+                  <option value="100k-250k">$100,000 - $250,000</option>
+                  <option value="250k-500k">$250,000 - $500,000</option>
+                  <option value="500k+">$500,000+</option>
+                </select>
+              </div>
+              <div class="mb-4">
+                <label class="form-label">Project Details *</label>
+                <textarea class="form-control" name="message" rows="5" placeholder="Tell us about your project, timeline, and any specific requirements..." required></textarea>
+              </div>
+              <button type="submit" class="btn-submit">
+                <i class="fas fa-paper-plane me-2"></i>Send Message & Get Free Quote
+              </button>
+            </form>
+          </div>
+        </div>
+        <div class="col-lg-5">
+          <div class="map-section">
+            <iframe 
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d429157.1659691813!2d-97.061!3d32.776!2m3!1f0!2f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864c19f77b047c01%3A0x32c1f0d9e5c9e5e5!2sDallas-Fort%20Worth%20Metroplex%2C%20TX!5e0!3m2!1sen!2sus!4v1234567890" 
+              width="100%" 
+              height="100%" 
+              style="border:0;" 
+              allowfullscreen="" 
+              loading="lazy">
+            </iframe>
+          </div>
+          <div class="mt-4 p-4 bg-light rounded-3">
+            <h5 class="fw-bold mb-3"><i class="fas fa-shield-alt me-2" style="color: var(--primary);"></i>Why Choose Asfour Construction?</h5>
+            <ul class="list-unstyled">
+              <li class="mb-2"><i class="fas fa-check-circle me-2" style="color: var(--primary);"></i> Licensed, Bonded & Insured</li>
+              <li class="mb-2"><i class="fas fa-check-circle me-2" style="color: var(--primary);"></i> Free Consultation & Estimates</li>
+              <li class="mb-2"><i class="fas fa-check-circle me-2" style="color: var(--primary);"></i> On-Time, On-Budget Delivery</li>
+              <li class="mb-2"><i class="fas fa-check-circle me-2" style="color: var(--primary);"></i> DFW Local Experts</li>
+              <li><i class="fas fa-check-circle me-2" style="color: var(--primary);"></i> Permit Handling & Code Compliance</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <h4 class="mb-3" style="color: var(--primary);">ASFOUR CONSTRUCTION</h4>
+      <p class="mb-3"><i class="fas fa-phone me-2"></i> <a href="tel:+14699997705" class="text-white text-decoration-none">+1 (469) 999-7705</a></p>
+      <p class="mb-3">Building Excellence Across Dallas-Fort Worth</p>
+      <p class="mb-0">&copy; 2026 Asfour Construction. All Rights Reserved. | Licensed, Bonded & Insured</p>
+    </div>
+  </footer>
+
+  <a href="https://wa.me/14699997705" class="floating-whatsapp" target="_blank">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
